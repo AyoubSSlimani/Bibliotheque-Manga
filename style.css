@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cote-droit {
+    width: 83%;
+    height: 100%;
+    border: 1px solid black;
+    word-wrap: break-word;
+    
+}
+
+#cote-gauche {
+    height: 100%;
+    border: 1px solid red;
+    width: 220px;
+    word-wrap: break-word;
+}
+
+#ligne {
+    border: 2px solid black;
+    height: auto;
+}
+
+.carte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.carte .imageManga {
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.carte .ligneCarte {
+    border: 2px solid black;
+    width: 170px;
+}
+
+
+.carte .titreCard {
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;    
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+}
+
